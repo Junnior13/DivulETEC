@@ -5,30 +5,34 @@
 		cursor: pointer;
 		display: inline-block;
 		position: relative;
-		transition: 0.5s;
+		transition: img 1s;
+		
+		animation-delay:s;
 		width:50px;
 		height:50px ;
+		visibility:hidden;
 
 	}
 	#b5 img:after{
 		content: '\00bb';
 		position: absolute;
 		opacity: 0;
-		top: 0
+	 	top: 0
 		right:-20px;
 		transition:0.5s;
+		margin-right:-45px ;
+			visibility:visible;
 	}
 	#b5:hover img{
-		padding-right: 25px;
+			visibility:visible;
+		
 	}
 	#b5:hover img:after{
 		opacity: 1;
 		right:0;
+			
 	}
-
-#banner{
-    height:10em;
-}
-.btn{
+#b5{
+    
     
 }
