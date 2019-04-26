@@ -79,9 +79,9 @@ if(orig =='novaOrdCarga') dados= dados+'&motorista='+ext;
         <div class="row ">
           <button id="enfe" class="btn btn-danger col-md-4  my-2  rounded-0 " onclick="jantmp('Enfermagem.php','enfermagem')">Enfermagem</button>
           
-          <button id="anal" class="btn  btn-primary col-md-4  my-2  rounded-0 " onclick="jantmp('Analismo.php','Analismo')">Analise de sistemas</button>
+          <button id="anal" class="btn  btn-primary col-md-4  my-2  rounded-0 " onclick="jantmp('Analismo.php','Analismo')">Desenvolvimento de sistemas</button>
           
-          <button id="turis" class="btn btn-success   col-md-4  my-2  rounded-0 text-white" onclick="jantmp('turismo.php','Turismo')">Turismo</button>
+          <button id="turis" class="btn btn-success   col-md-4  my-2  rounded-0 text-white" onclick="jantmp('turismo.php','Turismo')">Turismo receptivo</button>
         </div>
         <div class="row ">
           <button id="edif" class="btn  btn-warning col-md-4  my-2 bg-warning rounded-0 "onclick="jantmp('edificacoes.php','edificacoes')">Edificações</button>
@@ -93,7 +93,8 @@ if(orig =='novaOrdCarga') dados= dados+'&motorista='+ext;
   <div id="conteudo">
     
   </div>
-    <a id="b5" class=" btn bt-lg btn-outline-danger offset-5 my-3" href="https://www.vestibulinhoetec.com.br/candidato/dados-acesso.asp"> inscrever-se <span id="sp"><img id=img-btn src="../etec.png"></img> </span></a>
   </div>
+    <a id="b5" class=" btn bt-lg btn-outline-danger offset-5 my-3" href="https://www.vestibulinhoetec.com.br/candidato/dados-acesso.asp"> inscrever-se <span id="sp"><img id=img-btn src="../etec.png"></img> </span></a>
+  
 </body>
 </html>
